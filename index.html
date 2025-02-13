@@ -12,13 +12,14 @@
 
   <!-- Navigation -->
   <nav>
-    <div class="logo">Shashi's Kitchen</div>
+    <!-- <div class="logo">Shashi's Kitchen</div> -->
     <div class="pic"></div>  
+    <h2 class="logo">Shashi's Kitchen</h2>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About Us</a></li>
       <li><a href="#menu">Menu</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact-section">Contact</a></li>
       <li><a href="#signin" class="btn">Sign In</a></li>
       <li><a href="#signup" class="btn">Sign Up</a></li>
     </ul>
@@ -29,7 +30,9 @@
     <div class="hero-content">
       <h1>Welcome to Shashi's Kitchen</h1>
       <p>Your favorite food delivered to your doorsteps.</p>
+      <div class="hero-content">
       <a href="#menu" class="btn">Explore Menu</a>
+    </div>
     </div>
   </section>
 
@@ -67,15 +70,16 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <form id="contact-form">
-      <div><input type="text" placeholder="Name" required></div>
-      <div><input type="email" placeholder="Email" required></div>
-      <div><textarea placeholder="Message" required></textarea></div>
-      <button type="submit">Submit</button>
+  <section class="query-section-form" id="contact-section">
+    <form action="">
+      <input class="form-fields" type="name" class="text" placeholder="Enter your name">
+        <input class="form-fields" type="email" class="text" placeholder="Enter your email id">
+        <textarea class="form-fields" name="message" id="" cols="48" rows="7" placeholder="Enter your message"></textarea>
+        <div class="form-btns">
+            <button class="submit-btn" type="submit">Submit</button>
+            <button class="reset-btn" type="reset">Reset</button>
+        </div>
     </form>
-  </section>
 
   <!-- Sign In Form -->
   <section id="signin" class="form-section">
